@@ -25,7 +25,7 @@ class Jankenpon extends Observable {
     super();
     this.states = ["piedra", "papel", "tijera"];
     this.res = "";
-    this.dataUser = ""
+    this.dataUser = "";
   }
 
   action(element) {
